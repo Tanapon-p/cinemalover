@@ -1,0 +1,46 @@
+API Key: 67e88e6117b94b3a79e8bff832dd6655
+
+Base URL: https://api.themoviedb.org/3
+
+
+
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=67e88e6117b94b3a79e8bff832dd6655
+
+Now Playing
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/now_playing?api_key=67e88e6117b94b3a79e8bff832dd6655&language=en-US&page=1' \
+     --header 'Authorization: Bearer 67e88e6117b94b3a79e8bff832dd6655' \
+     --header 'accept: application/json'
+
+
+Popular
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/popular?api_key=67e88e6117b94b3a79e8bff832dd6655&language=en-US&page=1' \
+     --header 'Authorization: Bearer 67e88e6117b94b3a79e8bff832dd6655' \
+     --header 'accept: application/json'
+
+Top rate
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/top_rated?api_key=67e88e6117b94b3a79e8bff832dd6655&language=en-US&page=1' \
+     --header 'Authorization: Bearer 67e88e6117b94b3a79e8bff832dd6655' \
+     --header 'accept: application/json'
+
+
+Upcoming
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/upcoming?api_key=67e88e6117b94b3a79e8bff832dd6655&language=en-US&page=1' \
+     --header 'Authorization: Bearer 67e88e6117b94b3a79e8bff832dd6655' \
+     --header 'accept: application/json'
+
+
+Search movie
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?api_key=67e88e6117b94b3a79e8bff832dd6655&query={Movie_id}
+     --header 'accept: application/json'
