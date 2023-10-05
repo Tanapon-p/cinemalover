@@ -17,7 +17,7 @@ export const Footer = () => {
             href="https://www.instagram.com/marangwun/"
             target="_blank"
             className="mr-4 hover:underline md:mr-6"
-            rel="noreferer"
+            rel="noreferrer"
           >
             Instagram
           </a>
@@ -27,7 +27,7 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/tanapon-poonsanchai-bb1340211/"
             target="_blank"
             className="mr-4 hover:underline md:mr-6"
-            rel="noreferer"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
@@ -37,7 +37,7 @@ export const Footer = () => {
             href="https://github.com/Tanapon-p"
             target="_blank"
             className="mr-4 hover:underline md:mr-6"
-            rel="noreferer"
+            rel="noreferrer"
           >
             Github
           </a>

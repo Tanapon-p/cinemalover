@@ -6,7 +6,7 @@ import { useTitle } from "../hooks/useTitle";
 export const MovieDetail = () => {
   const params = useParams();
   const [movie, setMovie] = useState({});
-  
+
   //eslint-disable-next-Line
   const pageTitle = useTitle(movie.title);
 
@@ -96,7 +96,7 @@ export const MovieDetail = () => {
             <a
               href={`https://www.imdb.com/title/${movie.imdb_id}`}
               target="_blank"
-              rel="noreferer"
+              rel="noreferrer"
             >
               {movie.imdb_id}
             </a>
