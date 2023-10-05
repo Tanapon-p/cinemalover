@@ -6,6 +6,8 @@ import { useTitle } from "../hooks/useTitle";
 export const MovieDetail = () => {
   const params = useParams();
   const [movie, setMovie] = useState({});
+  
+  //eslint-disable-next-Line
   const pageTitle = useTitle(movie.title);
 
   const image = movie.poster_path
