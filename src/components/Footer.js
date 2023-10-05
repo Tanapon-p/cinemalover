@@ -47,7 +47,7 @@ export const Footer = () => {
             href="https://www.facebook.com/tanapon.poonsanchai"
             target="_blank"
             className="hover:underline"
-            rel="noreferer"
+            rel="noreferrer"
           >
             Contact
           </a>
