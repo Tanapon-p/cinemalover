@@ -37,7 +37,7 @@ export const Header = () => {
       <nav className="bg-white border-b-2 border-gray-200 dark:bg-gray-900 dark:border-b-1 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center">
-            <img src={Logo} className="h-8 mr-2 sm:h-9" alt="CinemaLover Logo" />
+            <img src={Logo} className="h-8 mr-2 sm:h-9 rounded-xl" alt="CinemaLover Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               CinemaLover
             </span>

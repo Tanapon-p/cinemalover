@@ -13,22 +13,42 @@ export const Footer = () => {
       </span>
       <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 mt-3 md:mt-0">
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <a
+            href="https://www.instagram.com/marangwun/"
+            target="_blank"
+            className="mr-4 hover:underline md:mr-6"
+            rel="noreferer"
+          >
             Instagram
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <a
+            href="https://www.linkedin.com/in/tanapon-poonsanchai-bb1340211/"
+            target="_blank"
+            className="mr-4 hover:underline md:mr-6"
+            rel="noreferer"
+          >
             LinkedIn
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" className="mr-4 hover:underline md:mr-6">
+          <a
+            href="https://github.com/Tanapon-p"
+            target="_blank"
+            className="mr-4 hover:underline md:mr-6"
+            rel="noreferer"
+          >
             Github
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" className="hover:underline">
+          <a
+            href="https://www.facebook.com/tanapon.poonsanchai"
+            target="_blank"
+            className="hover:underline"
+            rel="noreferer"
+          >
             Contact
           </a>
         </li>
